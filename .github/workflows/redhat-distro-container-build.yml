@@ -4,6 +4,9 @@ on:
   pull_request:
     branches:
       - rhoai-v*
+    types:
+      - opened
+      - synchronize
   push:
     branches:
       - rhoai-v*
